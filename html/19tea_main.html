@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <!-- 19tea_main.html -->
-<html lang="ko-kr">
+<html lang="ko-KR">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta charset="UTF-8">
 
- <link rel="stylesheet" href="../fonts/fontawesome/css/all.css">
  <link rel="stylesheet" href="../fonts/noto_sans/noto_sans.css">
 
  <link rel="stylesheet" href="../css/base/reset.css">
  <link rel="stylesheet" href="../css/base/common.css">
- <link rel="stylesheet" href="../css/src/19tea_main.css">
+ <link rel="stylesheet" href="../css/src/main/19tea_main.css">
 
 <!--[if IE]>
 <script src="../ie/modernizr-custom.js"></script>
@@ -19,17 +18,18 @@
 
  <title>19tea</title>
 
-<link rel="shortcut icon" href="icon이름.png" type="image/png">
-<link rel="apple-touch-icon" href="icon이름.png">
+<link rel="shortcut icon" href="../19tea_icon.png" type="image/png">
+<link rel="apple-touch-icon" href="../19tea_icon.png">
 </head>
 <body>
 <!-- layout -->
   <div id="wrap">
     <div class="head_area">
-      <header id="headBox">
+      <header id="headBox" class="clearfix">
         <h1><a href="./19tea_main.html"><span class="hidden_context">19티</span></a></h1>
         <nav id="gnbBox">
-          <h2 class="hidden_context">19티 전체 메뉴</h2>   
+          <h2 class="hidden_context">19티 전체 메뉴</h2>
+          <div class="gnb_button"><button type="button"><span class="hidden_context">메뉴버튼</span></button></div>   
           <div class="gnb_area">
             <div class="gnb_close">
               <button type="button"><span class=hidden_context>닫기</span></button>
@@ -38,7 +38,7 @@
               <li>
                 <a href="#">브랜드스토리</a>
                 <ul class="gnb_sub_menu">
-                  <li><a href="#">브랜드소개</a></li>
+                  <li><a href="./19tea_brand.html">브랜드소개</a></li>
                   <li><a href="#">찾아오는길</a></li>
                 </ul>
               </li>
@@ -84,15 +84,17 @@
     <section id="viewBox">
       <h2 class="hidden_context">광고영역</h2>
       <div class="view_area">
+          <div class="view_indi_area">
+            <ul class="view_indicator">
+              <li class="action"><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
+              <li><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
+              <li><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
+          </ul>
+        </div>
         <ul class="view_con">
           <li class="view_img_01"><a href="#"><span class="hidden_context">광고 이미지 01</span></a></li>
           <li class="view_img_02"><a href="#"><span class="hidden_context">광고 이미지 02</span></a></li>
           <li class="view_img_03"><a href="#"><span class="hidden_context">광고 이미지 03</span></a></li>
-        </ul>
-        <ul class="view_indicator">
-          <li class="action"><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
-          <li><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
-          <li><a href="#"><span class="hidden_context">해당 광고 이미지의 내용으로 이동</span></a></li>
         </ul>
       </div>
     </section>
@@ -107,14 +109,14 @@
         </div>
         <div class="advantages_con">
           <ul>
-            <li class="advantages_img_01"><span>19티는 가격이 착합니다</span></li>
+            <li class="advantages_img_01 action"><span>19티는 가격이 착합니다</span></li>
               <li class="advantages_img_02"><span>19티는 건강 합니다</span></li>
           </ul>
         </div>
     </div>
     </article>
     <!--//advantagesBox -->
-    <article id="promptionBox">
+    <article id="promotionBox">
       <h2>19티 후기</h2>
       <div class="video_area">
         <div class="video_con">
@@ -155,9 +157,9 @@
     <footer id="footBox">
       <h2 class="hidden_context">회사정보</h2>
       <address>
-        <p>(주)참인포텍 대표 : 홍기량 <br />
-          사업자등록번호 : 214-88-18470 <br />
-          서울특별시 강남구 봉은사로 317 <br />
+        <p>(주)참인포텍 대표 : 홍기량
+          사업자등록번호 : 214-88-18470
+          서울특별시 강남구 봉은사로 317
           (논현동, 아모제논현빌딩 8층)</p>
       </address>
       <div class="ect_area">
@@ -173,6 +175,8 @@
 
  <script src="../js/base/jquery-3.5.1.js"></script>
  <script src="../js/base/jquery-ui.js"></script>
- <script src="../js/src/19tea_main.js"></script>
+ <script src="../js/src/19tea_rwdTemp.js"></script>
+ <script src="../js/src/19tea_rwdTemp_import_module.js"></script>
+ <!-- <script src="../js/src/19tea_main.js"></script> -->
 </body>
 </html>
