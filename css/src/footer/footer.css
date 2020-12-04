@@ -17,7 +17,7 @@
         width: 3.64583333333vw; height: 40px; height: 2.5rem; float: left; 
         background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;
       }
-      .ect_area a:nth-child(2){margin-right: 10px; margin-right: 0.625rem; background-image: url("../../../../img/foot/login.png");}
-      .ect_area a:nth-child(3){background-image: url("../../../../img/foot/link_page.png");}
+      .ect_area a:nth-child(2){margin-right: 10px; margin-right: 0.625rem; background-image: url("../../../img/foot/login.png");}
+      .ect_area a:nth-child(3){background-image: url("../../../img/foot/link_page.png");}
       .foot_text{position: absolute; top: 70%; left: 50%;  transform: translateX(-50%); width: 11.979166vw; height: 20px; height: 1.25rem; }
     }
