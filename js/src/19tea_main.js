@@ -16,6 +16,8 @@
 
   var win = $(window);
   var sizeWin = win.outerWidth(true);
+  var headBoxTop = $(headBox).offset().top;
+  console.log(headBoxTop)
 
   if(sizeWin <= 480){
     menuBtn.on('click',['button'],function(e){
@@ -38,13 +40,22 @@
       gnbSubMenu.eq(itI).fadeIn();
       gnbMainMenuLi.eq(itI).addClass('action');
       gnbMainMenuLi.eq(itI).siblings().removeClass('action');
-  
     });
     gnbSubMenu.on('mouseleave',function(e){
       e.preventDefault();
       gnbSubMenu.fadeOut();
       gnbMainMenuLi.removeClass('action');
     });
+
+    win.on('scroll',function(){
+      var winSt = win.scrollTop();
+
+      if(headBoxTop <= winSt){
+        headBox.css({'position' :'fixed', 'top':0, 'z-index' : 2000});
+      }else{
+        headBox.removeAttr('style');
+      };
+    })
   }
 //indicator slide banner
 var viewBox = $('#viewBox');
