@@ -46,17 +46,21 @@
       gnbSubMenu.fadeOut();
       gnbMainMenuLi.removeClass('action');
     });
+  }
 
+  if(sizeWin >= 1025){
     win.on('scroll',function(){
       var winSt = win.scrollTop();
-
+      console.log(winSt)
+      
       if(headBoxTop <= winSt){
-        headBox.css({'position' :'fixed', 'top':0, 'z-index' : 2000});
+        headArea.css({'position' :'fixed', 'top':0, 'z-index' : 2000});
       }else{
-        headBox.removeAttr('style');
-      };
-    })
-  }
+        headArea.removeAttr('style');
+      }
+  })
+};
+
 //indicator slide banner
 var viewBox = $('#viewBox');
 var viewArea = viewBox.children('.view_area');
