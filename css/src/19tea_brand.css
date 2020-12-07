@@ -71,9 +71,9 @@ h2{
       background-image: url("../../img/brand/advantage/plus_icon.png");
       background-repeat: no-repeat; background-position: 50% 50%;
     }
-    .plus_btn:nth-child(1){position: absolute; top:62px; left: 220px;}
-    .plus_btn:nth-child(2){position: absolute; top: 226px; right: 252px;}
-    .plus_btn:nth-child(3){position: absolute; top: 382px; left: 220px;}
+    .plus_btn:nth-child(1){position: absolute; z-index:100; top:62px; left: 220px;}
+    .plus_btn:nth-child(2){position: absolute; z-index:100; top: 226px; right: 252px;}
+    .plus_btn:nth-child(3){position: absolute; z-index:100; top: 382px; left: 220px;}
     .advantage_cup_img{position: absolute; top: 0; left: 50%; transform: translate(-50%);
       width: 294px; height: 464px; 
       background-image: url("../../img/brand/advantage/big_cup_img.png");

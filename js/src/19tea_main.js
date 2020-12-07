@@ -16,8 +16,8 @@
 
   var win = $(window);
   var sizeWin = win.outerWidth(true);
-  var headBoxTop = $(headBox).offset().top;
-  console.log(headBoxTop)
+  var headAreaTop = $(headArea).offset().top;
+  console.log(headAreaTop)
 
   if(sizeWin <= 480){
     menuBtn.on('click',['button'],function(e){
@@ -53,8 +53,8 @@
       var winSt = win.scrollTop();
       console.log(winSt)
       
-      if(headBoxTop <= winSt){
-        headArea.css({'position' :'fixed', 'top':0, 'z-index' : 2000});
+      if(headAreaTop < winSt){
+        headArea.css({'position' :'fixed', 'top':0, 'z-index' : 2000, 'borderBottom' : 1 + 'px solid #313131','backgroundColor': 'rgba(255,255,255,0.7)'});
       }else{
         headArea.removeAttr('style');
       }
