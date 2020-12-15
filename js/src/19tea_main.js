@@ -151,7 +151,6 @@ aConNextBtn.on('click',function(e){
     if(selN >=  aConLi.length){
       selN = 0;
     }
-    // console.log( selN );
     
     aConLi.eq(selN).stop().show(function(){
       aConLi.eq( selectLiN() ).stop().fadeOut(function(){
@@ -163,16 +162,6 @@ aConNextBtn.on('click',function(e){
       });    
     });
   }
-
-  // aConLi.eq(0).fadeToggle(function(){
-  //   var aConLiD = aConLi.eq(0).css('z-index');
-  //   if(aConLiD === 50){
-  //     aConLi.eq(0).addClass('hide');
-  //     aConLi.eq(0).siblings().removeClass('hide');
-  //   }else if(aConLiD !== 0){
-  //     aConLi.eq(0).removeClass('hide');
-  //   }
-  // })
   });
 
 })(jQuery); 
