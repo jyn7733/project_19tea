@@ -46,7 +46,7 @@
       gnbSubMenu.fadeOut();
       gnbMainMenuLi.removeClass('action');
     });
-  }
+  };
 
   if(sizeWin >= 1025){
     win.on('scroll',function(){
