@@ -1,0 +1,31 @@
+/* mobile */ 
+@media screen and (min-width:280px) and (max-width:480px){
+  #introductionBox{ width: 100%; max-width: 480px; height: 900px; padding-top: 50px; box-sizing: border-box; background-color: #fff;}
+  #introductionBox > h2{
+  width: 100%; height: 100px; color: #fff; 
+  font-size: 30px; font-weight: bold; margin: auto; text-align: center; line-height: 100px;
+  background-image: url("../../../../../img/brand/introduction/brand_title_bg_dark.png");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;
+  } 
+  .introduction_area{position: static; width: 83.333333vw; height: 270px;}
+  .introduction_con{width: 100%; height: auto; min-height: 600px;  box-shadow:none; padding:0;} 
+  .introduction_con ul{width: 100%; height: auto;}
+  .introduction_con ul li{position: static; width: 100%; height: 270px;}
+  .next_btn{display: none;}
+  .introduction_img_01{position: static; box-shadow: 2px 2px 5px 5px #989898;
+    margin: auto; margin-top: 30px; margin-bottom: 86px;
+    background-image: url("../../../../../img/brand/introduction/480_content_img_01.png");
+    background-repeat: no-repeat; background-position: 50% 50%;
+  }
+  .introduction_img_02{position: static;
+    margin: auto; box-shadow: 2px 2px 5px 5px #989898;
+    background-image: url("../../../../../img/brand/introduction/480_content_img_02.png");
+    background-repeat: no-repeat; background-position: 50% 50%;
+  }
+  .introduction_con ul li span{ 
+    display: block; position: relative; top: 180px; width: 100%; height: 60px; 
+   color: #fff; font-size: 20px; font-weight: bold; text-align: center;
+   background-color: rgba(103, 103, 103, 0.7);
+ }
+}
+

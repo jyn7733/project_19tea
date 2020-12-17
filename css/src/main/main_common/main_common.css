@@ -1,0 +1,5 @@
+
+/* 공통내용*/
+#wrap{
+  width: 100%; max-width: 1920px; max-width: 120rem; height: auto; min-height: 1000px; min-height: 62.5rem; margin: auto;
+}

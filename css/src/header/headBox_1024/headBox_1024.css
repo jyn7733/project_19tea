@@ -1,9 +1,9 @@
 /* headBox_1024.css */
 
-/* 481부터 1024(tablet) */
-@media screen and (min-width:481px) and (max-width:1024px){
+/* 950부터 1024(tablet) */
+@media screen and (min-width:1000px) and (max-width:1024px){
   .head_area{position: relative; z-index: 1000; width: 100%; height: 100px; background-color: #fff;}
-  #headBox{width: 100%; max-width: 1440px; height: 100px; max-width: 90rem;  margin: auto; padding: 20px; box-sizing: border-box;}
+  #headBox{width: 100%;  height: 100px;  margin: auto; padding: 20px; box-sizing: border-box;}
   h1 {float: left; width: 200px; height: 60px; margin-left: 40px; width: 12.5rem; height: 5rem; margin-left: 2.5rem;}
   h1 a{
     display: block; width: 100%; height: 60px;

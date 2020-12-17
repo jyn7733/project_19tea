@@ -1,0 +1,9 @@
+
+/* 공통 */
+#wrap{
+  width: 100%; max-width: 1920px; height: auto; min-height: 1000px; margin: auto;
+}
+h2{
+  width: 236px; height: 100px; color: #fff; line-height: 100px;
+  font-size: 30px; font-weight: bold; margin: auto; text-align: center;
+}

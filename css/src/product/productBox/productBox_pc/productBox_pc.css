@@ -1,0 +1,61 @@
+
+
+/* productBox */
+#productBox{
+  width: 100%; height: auto; min-height: 2000px; background-color: #dfdfdf;
+  }
+  #productBox > h2{
+    width: 100%; height: 200px; color: #fff; 
+    font-size: 30px; font-weight: bold; margin: auto; text-align: center; line-height: 200px;
+    background-image: url("/img/product/title_bg/1920_title_bg.png");
+    background-repeat: no-repeat; background-position: 50% 50%;
+  }
+  #productBox > h3{
+    width: 50%; height: 40px; margin: auto;
+    font-size: 20px;  margin-top: 40px;
+  }
+  
+  .sub_menu{
+    width: 100%; height: 50px; margin-top: 40px;
+  }
+  .sub_menu ul{
+    width: 50%; height: 100%; margin: auto; text-align: center;
+  }
+  .sub_menu ul>li{
+    display: inline-block;  width: 100px; height: 100%;
+    font-size: 20px; line-height: 50px; font-weight: bold;
+    border-right: 5px solid #313131; 
+  }
+  .sub_menu ul>li:last-child{
+    border-right: 0;
+  }
+  .milktea{
+    width: 100%; height: auto; min-height: 800px; background-color: #988;
+  }
+  .milktea ul{
+    width: 950px; height: auto; min-height: 800px; margin: auto;
+  }
+  .milktea ul>li{position: relative;
+   float: left; width: 200px; height: 200px; margin-right: 50px; margin-top: 40px;
+   background-color: #fff;
+  }
+  .milktea ul>li:nth-child(4n){margin-right: 0;}
+  .milktea ul>li>span{
+    position: absolute; bottom: 0; display: block;
+    width: 100%; height: 50px; line-height: 50px; text-align: center;  background-color: rgba(0,0,0,0.5);
+  }
+  .tea{
+    width: 100%; height: auto; min-height: 800px; background-color: #888;
+  }
+  .tea ul{
+    width:950px; height: auto; min-height: 800px; margin: auto;
+  }
+  .tea ul>li{position: relative;
+   float: left; width: 200px; height: 200px; margin-right: 50px; margin-top: 40px;
+   background-color: #fff;
+  }
+  .tea ul>li:nth-child(4n){margin-right: 0;}
+  .tea ul>li>span{
+    position: absolute; bottom: 0; display: block;
+    width: 100%; height: 50px; line-height: 50px; text-align: center;  background-color: rgba(0,0,0,0.5);
+  }

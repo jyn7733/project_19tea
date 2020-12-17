@@ -1,0 +1,25 @@
+/* pc pull */
+@media screen and (min-width:1025px) and (max-width:1440px){ 
+  .advantage_con_area{position: relative; width: 80%; height: 536px; margin-top: 50px; }
+  .plus_btn:nth-child(1){position: absolute; top:60px; left: 420px;}
+  .plus_btn:nth-child(2){position: absolute; top:200px; right: 420px;}
+  .plus_btn:nth-child(3){position: absolute; top:400px; left:420px;}
+  
+  .advantage_img{display: none; width: 200px; height: 200px;}
+  .advantage_img_01{
+  position: absolute; top: 0; left: 200px; 
+  background-image: url("../../../../../img/brand/advantage/big_advantage_con_01.png"); background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+  .advantage_img_02{
+  position: absolute; top: 150px; right: 200px; 
+  background-image: url("../../../../../img/brand/advantage/big_advantage_con_02.png"); background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+  .advantage_img_03{
+  position: absolute; top: 300px; left: 200px; 
+  background-image: url("../../../../../img/brand/advantage/big_advantage_con_03.png"); background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+  .advantage_text_02{width: 38.888888vw; height: 140px; margin-top: 50px;}
+}

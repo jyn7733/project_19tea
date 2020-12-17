@@ -19,7 +19,7 @@
   var headAreaTop = $(headArea).offset().top;
   console.log(headAreaTop)
 
-  if(sizeWin <= 480){
+  if(sizeWin <= 999){
     menuBtn.on('click',['button'],function(e){
       e.preventDefault();
       gnbArea.stop().fadeIn();

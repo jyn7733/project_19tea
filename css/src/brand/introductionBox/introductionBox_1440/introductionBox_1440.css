@@ -1,0 +1,10 @@
+/* pc pull */
+@media screen and (min-width:1025px) and (max-width:1440px){ 
+  .introduction_area{width: 68.8888888889vw;} 
+  .introduction_con{width:62.5vw;}
+  .next_btn{
+    /* position: absolute; top: 50%; right: 100px; z-index: 100; */
+    float: right; width: 6.38888888889vw; height: 100%;
+  }
+  .next_btn button{margin-left: 2.08333333333vw;}
+}
