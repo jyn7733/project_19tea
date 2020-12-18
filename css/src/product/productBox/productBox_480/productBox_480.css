@@ -1,4 +1,60 @@
 /* mobile */
 @media (min-width:280px) and (max-width:480px){
-  
+  .sub_menu{
+    width: 100%; height: 50px; margin-top: 40px;
+  }
+  .sub_menu ul{
+    width: 100%; height: 100%; margin: auto; text-align: center;
+   
+  }
+  .sub_menu ul>li{
+    display: inline-block;  width: 20%; height: 100%;
+    line-height: 50px; font-weight: bold; font-size: 16px; border-right: 0;
+    border-bottom: 2px solid #313131; box-sizing: border-box;
+  }
+  #productBox > h2{
+    width:100%; height: 100px; line-height: 100px;
+    background-image: url("/img/product/title_bg/480_title_bg.png");
+  }
+  .milktea{
+    width: 100%; height: auto; min-height: 800px; 
+  }
+  .milktea ul{
+    width: 89.5833333333vw; height: auto; min-height: 800px; margin: auto;
+  }
+  .milktea ul>li{position: relative;
+   float: left; width:41.6666666667vw; height: 200px; margin-right: 6.25vw; margin-top: 40px;
+   background-color: #fff;
+  }
+  .milktea ul>li:nth-child(2n){margin-right: 0;}
+  .milktea ul>li>span{
+    position: absolute; bottom: 0; display: block;
+    width: 100%; height: 50px; background-color: rgba(0,0,0,0.5);
+  }
+
+  .more{
+    display: block;
+    width: 56px; height: 30px; margin: auto;
+  }
+  .more button{
+    width: 100%; height: 100%;
+    border: 2px solid #313131; box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .tea{
+    width: 100%; height: auto; min-height: 800px;
+  }
+  .tea ul{
+    width: 89.5833333333vw; height: auto; min-height: 800px; margin: auto;
+  }
+  .tea ul>li{position: relative;
+   float: left; width:2041.6666666667vw; height: 200px; margin-right: 6.25vw; margin-top: 40px;
+   background-color: #fff;
+  }
+  .tea ul>li:nth-child(4n){margin-right: 0;}
+  .tea ul>li>span{
+    position: absolute; bottom: 0; display: block;
+    width: 100%; height: 50px; background-color: rgba(0,0,0,0.5);
+  }
 }
