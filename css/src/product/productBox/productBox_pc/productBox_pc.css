@@ -2,7 +2,7 @@
 
 /* productBox */
 #productBox{
-  width: 100%; height: auto; min-height: 2000px; background-color: #dfdfdf;
+  width: 100%; height: auto; min-height: 2000px;
   }
   #productBox > h2{
     width: 100%; height: 200px; color: #fff; 
@@ -24,7 +24,7 @@
   .sub_menu ul>li{
     display: inline-block;  width: 100px; height: 100%;
     font-size: 20px; line-height: 50px; font-weight: bold;
-    border-right: 5px solid #313131; 
+    border-right: 3px solid rgba(0,0,0,0.5); 
   }
   .sub_menu ul>li:last-child{
     border-right: 0;
@@ -33,7 +33,7 @@
     width: 100%; height: auto; min-height: 800px;
   }
   .milktea ul{
-    width: 950px; height: auto; min-height: 800px; margin: auto;
+    width: 950px; height: auto; margin: auto;
   }
   .milktea ul>li{position: relative;
    float: left; width: 200px; height: 200px; margin-right: 50px; margin-top: 40px;
@@ -49,7 +49,7 @@
     width: 100%; height: auto; min-height: 800px;
   }
   .tea ul{
-    width:950px; height: auto; min-height: 800px; margin: auto;
+    width:950px; height: auto; margin: auto;
   }
   .tea ul>li{position: relative;
    float: left; width: 200px; height: 200px; margin-right: 50px; margin-top: 40px;
