@@ -1,7 +1,7 @@
 /* mobile */
 @media (min-width:280px) and (max-width:480px){
   #productBox{
-    width: 100%; height: auto;
+    width: 100%; height: auto; min-height: 0;
   }
   #productBox > h2{
     width:100%; height: 100px; line-height: 100px;
@@ -21,13 +21,13 @@
   }
 
   .milktea{
-    width: 100%; height: auto;
+    width: 100%; height: auto; min-height: 0;
   }
   .milktea ul{
     width: 89.5833333333vw; height: auto; margin: auto;
   }
   .milktea ul>li{position: relative;
-   float: left; width:41.6666666667vw; height: 200px; margin-right: 6.25vw; margin-top: 40px;
+   float: left; width:41.6666666667vw; height: 41.6666666667vw; margin-right: 6.25vw; margin-top: 40px;
    background-position: 50% 50%; background-size: contain; background-repeat: no-repeat;
   }
   .milktea ul>li:nth-child(2n){margin-right: 0;}
@@ -47,13 +47,13 @@
   }
 
   .tea{
-    width: 100%; height: auto; min-height: 800px; margin-top: 40px;
+    width: 100%; height: auto;  min-height: 600px;
   }
   .tea ul{
     width: 89.5833333333vw; height: auto; margin: auto;
   }
   .tea ul>li{position: relative;
-   float: left; width:41.6666666667vw; height: 200px; margin-right: 6.25vw; margin-top: 40px;
+   float: left; width:41.6666666667vw; height: 41.6666666667vw; margin-right: 6.25vw; margin-top: 40px;
    background-position: 50% 50%; background-size: contain; background-repeat: no-repeat;
   }
   .tea ul>li:nth-child(2n){margin-right: 0;}
