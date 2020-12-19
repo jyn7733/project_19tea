@@ -7,7 +7,7 @@
     font-size: 20px; line-height: 50px; font-weight: bold;
   }
   #productBox > h2{
-    background-image: url("/img/product/title_bg/1024_title_bg.png");
+    background-image: url("../../../../../img/product/title_bg/1024_title_bg.png");
   }
   .milktea{
     width: 100%; height: auto; 
