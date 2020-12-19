@@ -1,7 +1,5 @@
 /* headBox_480.css */
 
-
-
 /* mobile */
 @media screen and (min-width:280px) and (max-width:999px){
   #wrap{position: relative;}
@@ -41,3 +39,4 @@
       .gnb_close button{width: 100%; height: 100%; 
         background-image: url("../../../../img/menu/close_icon.png"); background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;} 
   }
+

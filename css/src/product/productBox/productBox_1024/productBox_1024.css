@@ -5,7 +5,6 @@
   .sub_menu ul>li{
     display: inline-block;  width: 20%; height: 100%;
     font-size: 20px; line-height: 50px; font-weight: bold;
-    border-right: 5px solid #313131; 
   }
   #productBox > h2{
     background-image: url("/img/product/title_bg/1024_title_bg.png");
@@ -23,7 +22,7 @@
   .milktea ul>li:nth-child(4n){margin-right: 0;}
   .milktea ul>li>span{
     position: absolute; bottom: 0; display: block;
-    width: 100%; height: 50px; background-color: rgba(0,0,0,0.5);
+    width: 100%; height: 50px;
   }
   .tea{
     width: 100%; height: auto; 
@@ -38,17 +37,27 @@
   .tea ul>li:nth-child(4n){margin-right: 0;}
   .tea ul>li>span{
     position: absolute; bottom: 0; display: block;
-    width: 100%; height: 50px; background-color: rgba(0,0,0,0.5);
+    width: 100%; height: 50px;
   }
   }
 
 @media (min-width: 481px) and (max-width:800px){
+  #productBox{
+    min-height: 0;
+  }
   .sub_menu ul{
     width: 50%; height: 100%; margin: auto; text-align: center;
   }
   .sub_menu ul>li{
     display: inline-block;  width: 20%; height: 100%;
     line-height: 50px; font-weight: bold;
-    border-right: 5px solid #313131; font-size: 16px;
+    font-size: 16px;
+  }
+
+  .milktea{
+    min-height: 500px;
+  }
+  .tea{
+    min-height: 400px;
   }
 }
