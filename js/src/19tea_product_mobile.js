@@ -93,7 +93,6 @@ var moreBtn = productBox.find('button');
 
 
 var url_01 = "../img/product/milktea_menu/";
-var url_02 = "../img/product/tea_menu/";
 var Code = "<li><span></span></li>";
 
 var i=0; //임의의 변수
@@ -125,7 +124,7 @@ moreBtn.on('click', function(e){
   moreFn(2);//위에서 만든 함수를 버튼 이벤트에 넣어 기능하게끔 해줌
 });
 
-var url_02 = "../../img/product/tea_menu/";
+var url_02 = "../img/product/tea_menu/";
 var l =0;
 for(; l<TeaList.length; l+=1){
   TeaUl.append(Code);
