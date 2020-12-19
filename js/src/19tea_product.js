@@ -87,7 +87,7 @@
   var TeaBox = productBox.find('.tea');
   var TeaUl = TeaBox.children('ul');
 
-  var url_01 = "../../img/product/milktea_menu/";
+  var url_01 = "../img/product/milktea_menu/";
   var Code = "<li><span></span></li>";
 
   var i =0;
@@ -100,7 +100,7 @@
     milkSpan.eq(i).text(MilkteaList[i].title);
   }
 
-  var url_02 = "../../img/product/tea_menu/";
+  var url_02 = "../img/product/tea_menu/";
   var j=0;
   for(; j<TeaList.length; j+=1){
     TeaUl.append(Code);

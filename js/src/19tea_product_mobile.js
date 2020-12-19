@@ -92,8 +92,8 @@ var TeaLi;
 var moreBtn = productBox.find('button');
 
 
-var url_01 = "../../img/product/milktea_menu/";
-var url_02 = "../../img/product/tea_menu/";
+var url_01 = "../img/product/milktea_menu/";
+var url_02 = "../img/product/tea_menu/";
 var Code = "<li><span></span></li>";
 
 var i=0; //임의의 변수
